@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592678589902.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "19948668",
+    "lastKnownWriteTime" : 3533708545835746637,
+    "last_content_update" : 1592678589902,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "56b8df2a4eba4d1bb86df170abcf1c46",
+        "name" : "symbols",
+        "title" : "symbols"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

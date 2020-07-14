@@ -1,0 +1,25 @@
+library(DOSE)
+data(geneList)
+de <- names(geneList)[abs(geneList) > 2]
+
+edo <- enrichDGN(de)
+
+library(enrichplot)
+barplot(edo, showCategory=20)
+
+
+library('org.Hs.eg.db')
+symbols <- c('XDH','ADCY7','ITPR2','C6orf174','LRRC3','MAP3K3','TTYH2','ZNF608')
+symbols <- c(my_data)
+a <- mapIds(org.Hs.eg.db, unlist(symbols), 'ENTREZID', 'SYMBOL')
+
+edo <- enrichDGN(a, pAdjustMethod = "none")
+
+
+library(enrichplot)
+barplot(edo, showCategory=6)
+upsetplot(edo)                 
+                 
+                 
+                 
+                 
